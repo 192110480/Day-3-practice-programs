@@ -1,0 +1,12 @@
+#include <stdio.h>
+void main()
+{
+    int base, exp;
+    float res;
+    printf("Enter base: ");
+    scanf("%d", &base);
+    printf("Enter exponent: ");
+    scanf("%d", &exp);
+    res = pow(base, exp);
+    printf("%d ^ %d = %f", base, exp, res);
+}
